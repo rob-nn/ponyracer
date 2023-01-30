@@ -1,0 +1,5 @@
+#!/bin/bash
+# Run setup
+
+docker-compose build
+docker-compose run ponyracer npm install
